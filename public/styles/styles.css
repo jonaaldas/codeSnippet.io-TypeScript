@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  font-family: 'Cabin', sans-serif;
+}
+
+.main_title {
+  text-align: center;
+}
+
+.section-a,
+.section-b{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-a > * {
+  margin-bottom: 10px;
+}
+
+.section-b > *{
+  margin-bottom: 10px;
+}
+
+#codeCont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eachCont{
+  width: 90%;
+}
+
+@media (min-width:750px){
+  #codeCont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+  }
+}

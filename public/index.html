@@ -6,44 +6,41 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Code Snippet IO</title>
-  <!--<link rel="stylesheet" type="text/css" href="./global.css" />  -->
-  <link rel="stylesheet" href="./prism.css"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./prism.css">
+  <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
 <body>
-  <h1 class="text-3xl font-bold text-center">
+  <h1 class="main_title">
     Code Snipet!
   </h1>
-  <section class="flex flex-col items-center">
+  <section class="section-a">
     <label for="title">Title</label>
     <input id='title' class="border" type="text" id="title">
   </section>
-  <section class="flex flex-col items-center">
+  <section class="section-b">
     <label for="language">Choose Language</label>
     <select name="language" id="language">
       <option value="nothing">Select and Lang</option>
       <option value="html">HTML</option>
       <option value="css">CSS</option>
       <option value="javascript">JavaScript</option>
-    </select>
-    <section class="flex flex-col items-center ">
       <h6>Please write code</h6>
-      <textarea id='code'class="border" name="code" id="code" cols="30" rows="10"></textarea>
+      <textarea id='code' class="border" name="code" id="code" cols="40" rows="10"></textarea>
+    </select>
+    <section >
       <div class="py-2" id="btns-cont">
         <button id="submitBtn" class="bg-lime-800 text-white px-2 py-2 rounded">Submit</button>
       </div>
     </section>
-
-    <section id="codeCont">
-      <!-- <h3>Hello</h3>
-      <pre class="language-html">
-        <code class="snippet language-html" data-id="d198441a-116f-4658-9571-fd21229559b6">123</code>
-      </pre>
-      <button id="delete-btn">Delete</button>
-      <button>Edit</button> -->
-    </section>
-
   </section>
+
+  <section id="codeCont">
+  </section>
+
   <script src="./prism.js"></script>
   <script src="./bundle.js" type="module"></script>
 </body>

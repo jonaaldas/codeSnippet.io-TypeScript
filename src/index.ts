@@ -101,3 +101,16 @@ const checkLocalStorageAndRun = () => {
 }
 
 checkLocalStorageAndRun()
+
+// modal code
+
+const modal = document.querySelector('.modal') as HTMLDivElement
+const howToUseBtn = document.querySelector('.how-to-use') as HTMLButtonElement
+const closeBtnModal = document.querySelector('.close-modal') as HTMLButtonElement
+
+howToUseBtn.addEventListener('click', () => {
+  modal.style.visibility = 'visible'
+})
+closeBtnModal.addEventListener('click', () => {
+  modal.style.visibility = 'hidden'
+} )

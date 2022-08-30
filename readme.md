@@ -2,7 +2,7 @@
 # Code Snippet
 When I was learning how to code one of the biggest problems I had was remembering the syntax I just learned. At the time I was storing the syntax in my notes app. I noticed there were a couple of problems with this approach. The code snippets were not searchable. The code snippets were not formatted correctly, and I was storing the code and my notes app and I have other stuff there that gets in the way of finding what I need.
 
-**Link to project:** [https://github.com/jonaaldas/codeSnippet.io-TypeScript](https://github.com/jonaaldas/codeSnippet.io-TypeScript)
+**Link to project:** [https://courageous-toffee-126485.netlify.app/)
 
 ![enter image description here](https://i.imgur.com/0dnfXZm.png)
 
